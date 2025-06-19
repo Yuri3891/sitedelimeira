@@ -187,6 +187,7 @@ h1, h2 {                                                                    /*ti
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 
 table {                           /* ou .tabela-distancias para ser mais específico */
     width: 80%;
@@ -206,6 +207,29 @@ th {
     color: white;
     text-align: center; 
 }
+=======
+
+        table {                                                    /*tabela de Distâncias*/
+            width: 80%;
+            text-align: center;                                     /*colocar o texto no centro*/
+            border-collapse: collapse;
+            margin: auto;
+        }
+        
+        th, td {                                                   /*texto da tabela de Distâncias*/                                
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        /*texto da tabela de Distâncias,formatações unicas abaixo*/  
+        
+        th {                                             
+            background: #007BFF;
+            color: white;
+        }
+
+>>>>>>> f61844f3f79088377e1bb890d255e7f90b718e7c
 
 /*formatação das outras listas */
 
