@@ -13,6 +13,8 @@ body{
         text-align: center;
 }
 
+
+
 header{
     background-color: chocolate;
     text-align: center;
@@ -185,25 +187,27 @@ h1, h2 {                                                                    /*ti
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.table {                                                    /*tabela de Distâncias*/
+
+table {                           /* ou .tabela-distancias para ser mais específico */
     width: 80%;
-    text-align: center;                                     /*colocar o texto no centro*/
+    text-align: center;                      /* Centraliza o texto dentro da tabela */
     border-collapse: collapse;
-    margin: auto;
+    margin: auto;                   /* Centraliza a tabela na página */
 }
 
-th, td {                                                   /*texto da tabela de Distâncias*/                                
+td {
     padding: 10px;
     border: 1px solid #ddd;
-    text-align: left;
+    text-align: center;              /* Centraliza o texto dentro de cada célula td */
 }
 
-/*texto da tabela de Distâncias,formatações unicas abaixo*/  
-
-th {                                             
+th {
     background: #007BFF;
     color: white;
+    text-align: center; 
 }
+
+/*formatação das outras listas */
 
 ul {                                       
     list-style: none;
@@ -213,7 +217,7 @@ ul {
 ul li {
     background: #e0f3ff;
     padding: 10px;
-    margin: 5px;
+    margin: 15px;
     border-radius: 5px;
 } 
 
@@ -285,7 +289,7 @@ iframe {
 /*Formatação do grid-turismo*/
 
 body {
-  margin: 0;
+  margin: 10px;
   padding: 20px;
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
@@ -328,9 +332,7 @@ h1 {
   transition: transform 0.3s ease;
 }
 
-.section img:hover {
-  transform: scale(1.03);
-}
+
 
 .text {
   width: 55%;
@@ -348,6 +350,14 @@ h1 {
   font-size: 1.05em;
   color: #333;
 }
+
+
+
+
+
+
+
+
 
 /* Responsivo */
 @media screen and (max-width: 768px) {
